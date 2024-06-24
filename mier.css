@@ -1,3 +1,7 @@
 h1{
     color:#640E0F;
+    margin:0;
+    padding:0;
+    display: flex;
+    min-height:100vh;
 }
