@@ -1,0 +1,58 @@
+/* variables */
+:root {
+  --primary: #FFC636;
+  --secondary: #FF9900;
+  --tertiary: #FF6347;
+  --text-color: #333;
+  --background-color: #FFF;
+}
+/* reset */
+body, p, a, ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* base styles */
+body {
+  background: var(--background-color);
+  overflow-x: hidden;
+}
+
+.button {
+  background: none;
+  padding: 6px 12px;
+  border: 2px solid var(--primary);
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+}
+
+.button:hover {
+  background: var(--primary);
+  color: var(--background-color);
+}
+
+/* fonts */
+
+/* mobile-styles */
+
+/* small-tablet-styles */
+@media screen and (min-width: 620px) {
+  
+}
+/* large tablets and laptop styles */
+@media screen and (min-width: 960px) {
+  
+}
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+  
+}
