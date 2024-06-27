@@ -8,37 +8,202 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="site-nav grid">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="./index.html">MSADH2</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contributors">Contact Us</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="home">
+      <section id="welcome" class="grid">
         <!-- Hero Section -->
         <div class="hero">
-          <h1>Welcome to Our Website</h1>
-          <p>Your catchy slogan here</p>
+          <div class="hero-content">
+            <h1>Modern Systems Analysis and Design</h1>
+            <h2>CPE340 - H2 Summer 2023 - 2024</h2>
+            <p>
+              Join us in celebrating the future of technology and the brilliant
+              minds behind these remarkable creations.
+            </p>
+            <a href="#projects" class="button">Show Projects</a>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="assets/corporatemw.png" alt="Hero Image" />
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+          </div>
         </div>
+      </section>
+      <!-- Contributors Section -->
+      <section id="contributors" class="contributors-section">
+        <div class="laptop-wrapper">
+          <img src="assets/laptop.png" alt="Laptop" />
+        </div>
+        <h2>Contributors</h2>
+        <p>Empowering Ideas into Reality -> Showcasing Student Ingenuity</p>
+        <ul class="grid">
+          <li>
+            <div>
+              <img
+                src="https://github.com/rhongobongo.png"
+                alt="Contributor 1"
+              />
+              <h3>Contributor 1</h3>
+              <p>Contributor 1</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://github.com/rhongobongo.png"
+                alt="Contributor 2"
+              />
+              <h3>Contributor 2</h3>
+              <p>Contributor 2</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://github.com/rhongobongo.png"
+                alt="Contributor 3"
+              />
+              <h3>Contributor 3</h3>
+              <p>Contributor 3</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <!-- Feature Section -->
-        <div class="features">
-          <h2>Features</h2>
-          <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="sticker-wrapper">
+          <img src="assets/sticker_design.png" alt="Sticker" />
+        </div>
+        <h2>Projects</h2>
+        <p>Designing the Future, One Project at a Time</p>
+        <div class="projects grid">
+          <ul class="grid">
+            <li>
+              <div class="project-card">
+                <img src="assets/projects/project1.png" alt="Project 1" />
+                <h3>Project 1</h3>
+                <p>Project 1 description</p>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <img src="assets/projects/project2.png" alt="Project 2" />
+                <h3>Project 2</h3>
+                <p>Project 2 description</p>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <img src="assets/projects/project3.png" alt="Project 3" />
+                <h3>Project 3</h3>
+                <p>Project 3 description</p>
+              </div>
+            </li>
           </ul>
         </div>
-
-        <!-- Footer Section -->
-        <footer>
-          <p>&copy; 2024 Your Website</p>
-        </footer>
       </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <div class="section-wrapper">
+          <a href="index.html">MSADH2</a>
+          <div class="social-media">
+            <a href="https://www.x.com/msadh2">X</a>
+            <a href="https://www.instagram.com/msadh2">Instagram</a>
+            <a href="https://www.youtube.com/msadh2">Youtube</a>
+            <a href="https://www.facebook.com/msadh2">Facebook</a>
+            <a href="https://www.linkedin.com/msadh2">LinkedIn</a>
+          </div>
+          <p>&copy; 2024 Your Website</p>
+        </div>
+        <div class="section-wrapper">
+          <h4>Use Cases</h4>
+          <ul>
+            <li>
+              <a href="">UI Design</a>
+            </li>
+            <li>
+              <a href="">UX Design</a>
+            </li>
+            <li>
+              <a href="">Wireframing</a>
+            </li>
+            <li>
+              <a href="">Diagramming</a>
+            </li>
+            <li>
+              <a href="">Brainstorming</a>
+            </li>
+            <li>
+              <a href="">Online Whiteboard</a>
+            </li>
+            <li>
+              <a href="">Team collaboration</a>
+            </li>
+          </ul>
+        </div>
+        <div class="section-wrapper">
+          <h4>Explore</h4>
+          <ul>
+            <li>
+              <a href="">Design</a>
+            </li>
+            <li>
+              <a href="">Prototyping</a>
+            </li>
+            <li>
+              <a href="">Development Features</a>
+            </li>
+            <li>
+              <a href="">Design Systems</a>
+            </li>
+            <li>
+              <a href="">Collaboration Features</a>
+            </li>
+            <li>
+              <a href="">Design Process</a>
+            </li>
+            <li>
+              <a href="">Figjam</a>
+            </li>
+          </ul>
+        </div>
+        <div class="section-wrapper">
+          <h4>Resources</h4>
+          <ul>
+            <li>
+              <a href="">Blog</a>
+            </li>
+            <li>
+              <a href="">Best practices</a>
+            </li>
+            <li>
+              <a href="">Colors</a>
+            </li>
+            <li>
+              <a href="">Color wheel</a>
+            </li>
+            <li>
+              <a href="">Support</a>
+            </li>
+            <li>
+              <a href="">Developers</a>
+            </li>
+            <li>
+              <a href="">Resource library</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
