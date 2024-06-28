@@ -3,7 +3,7 @@
   --primary: #FFC636;
   --secondary: #FF9900;
   --tertiary: #FF6347;
-  --text-color: #333;
+  --text-color: #1E1E1E;
   --background-color: #FFF;
 }
 /* reset */
@@ -21,38 +21,187 @@ li {
 body {
   background: var(--background-color);
   overflow-x: hidden;
+  font-family: 'Geist Variable', sans-serif;
 }
 
 .button {
   background: none;
-  padding: 6px 12px;
   border: 2px solid var(--primary);
+  color: var(--primary);
+  padding: 6px 12px;
   border-radius: 20px;
-  cursor: pointer;
   text-transform: uppercase;
-  transition: all 0.3s ease;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
   display: inline-block;
+  font-size: 1em;
 }
 
 .button:hover {
   background: var(--primary);
   color: var(--background-color);
 }
+input,textarea{
+  background: rgba(255,255,255,0.05);
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 2px solid #9893D8;
+  color: #f2f2f2;
+  font-size: 1em;
+}
 
 /* fonts */
+@font-face {
+  font-family: 'Geist Variable';
+  src: url('./fonts/GeistVF.ttf') format("ttf");
+}
+
+h1, h2, h3, h4 {
+  color: var(--text-color);
+  font-weight: normal;
+  line-height: 1.4em;
+}
+
+p, a, li {
+  color: var(--text-color);
+  line-height: 1.4em;
+  font-size: 1em;
+}
+
+h1, h3 {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+.leading {
+  font-size: 1.1em;
+}
 
 /* mobile-styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  box-sizing: border-box;
+}
+.site-nav {
+  margin: 0 20px;
+}
+.site-nav h1 {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  padding-left: 10px;
+  border-bottom: 3px solid var(--primary);
+  display: inline-block;
+}
+.site-nav ul {
+  display: none;
+}
+#welcome {
+  padding: 0 20px 20px 20px;
+}
+.welcome-text {
+  grid-column: 1/6;
+}
+.welcome-text a {
+  margin: 20px 0;
+}
+.welcome-img {
+  grid-column: 6/8;
+}
+.welcome-img img{
+ width: 200%;
+}
 
+#projects {
+  background: url('./assets/msad-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 30px 20px;
+}
+#projects h3 p {
+  margin-bottom: 0;
+  text-align: center;
+  border: 2px solid red;
+}
+.projects a {
+  grid-column: 1/9;
+  margin: 20px 0;
+  display: flex;
+}
+.projects a *{
+  margin: 0 20px;
+  max-width: 40%;
+  align-self: center;
+}
+.projects h4 {
+  color: var(--secondary);
+}
+#contributors {
+  background: grey;
+  padding: 30px 20px;
+}
+#contributors h3{
+  text-align: center;
+}
+.contributors {
+  margin: 40px 0;
+}
+.contributors a {
+  padding: 10px;
+  background: rgba(0,0,0,0.2);
+  grid-column: span 4;
+  text-align: center;
+}
+.contributors img {
+  height: 80px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+footer{
+  padding: 30px 20px;
+  background-color: var(--background-color);
+  background-image: url(assets/footer_image.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+footer .copyright{
+  grid-column: 1/3;
+  font-size: 0.8em;
+}
+footer .social{
+  grid-column: 7/9;
+  display: flex;
+  justify-content: flex-end;
+}
+footer li{
+  margin: 0 6px;
+}
+footer img{
+  width: 20px;
+}
 /* small-tablet-styles */
 @media screen and (min-width: 620px) {
   
 }
 /* large tablets and laptop styles */
 @media screen and (min-width: 960px) {
-  
+  body {
+    font-size: 18px;
+  }
 }
 /* desktop styles */
 @media screen and (min-width: 1200px) {
-  
+  body {
+    font-size: 20px;
+  }
 }
