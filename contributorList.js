@@ -1,4 +1,3 @@
-// import { github_usernames } from "./constants";
 const github_usernames = [
   "Adrianne-John",
   "arariadne",
