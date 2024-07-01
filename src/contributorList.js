@@ -1,35 +1,4 @@
-const github_usernames = [
-  "Adrianne-John",
-  "arariadne",
-  "deandoiii",
-  "EarlLawrence7",
-  "Erudi787",
-  "Gameldon2",
-  "itzKitt",
-  "j1nsol",
-  "jdesolate",
-  "jimmm00",
-  "johannamae19",
-  "jpenaso10",
-  "kisetzuu",
-  "laurenx122",
-  "LoydAMT",
-  "M4monski",
-  "mantequilla45",
-  "Marbench",
-  "MarkToroy",
-  "Mier03",
-  "NE0FEL1S",
-  "NiJyuKyu",
-  "phyveric24",
-  "radenabijah",
-  "RainelynSungahid",
-  "Raven-20",
-  "rhongobongo",
-  "Theo12335",
-  "Wl-lO",
-  "YONG0203",
-];
+import { github_usernames } from "./constants.js";
 
 const container = document.getElementById("contributors-list");
 
