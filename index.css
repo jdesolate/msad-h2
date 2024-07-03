@@ -119,14 +119,14 @@ h4 {
  width: 200%;
 }
 
-#projects {
+/* #projects {
   /* background: url('./assets/msad-image.jpg'); */
   /* background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-position: bottom;
   padding: 30px 20px; */
-}
+
 #projects h3, #projects p{
   text-align: center;
 }
