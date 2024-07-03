@@ -182,7 +182,6 @@ h4 {
 footer{
   padding: 30px 20px;
   background-color: var(--background-color);
-  width: 100%;
 }
 footer .copyright{
   /* grid-column: 1/3; */
