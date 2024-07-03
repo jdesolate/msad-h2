@@ -120,31 +120,27 @@ h4 {
 }
 
 #projects {
-  background: url('./assets/msad-image.jpg');
-  background-size: cover;
+  /* background: url('./assets/msad-image.jpg'); */
+  /* background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-position: bottom;
-  padding: 30px 20px;
+  padding: 30px 20px; */
 }
-#projects h3 p {
+#projects h3, #projects p{
   text-align: center;
 }
 .projects a {
-  grid-column: 1/9;
-  margin: 20px 0;
-  display: flex;
-}
-.projects a *{
-  margin: 0 20px;
-  max-width: 40%;
-  align-self: center;
+  padding: 10px;
+  background: rgba(193, 193, 193, 0.2);
+  grid-column: span 4;
+  text-align: center;
 }
 .projects h4 {
   color: var(--secondary);
 }
 #contributors {
-  background: grey;
+  /* background: grey; */
   padding: 30px 20px;
 }
 #contributors h3{
@@ -155,8 +151,8 @@ h4 {
 }
 .contributors a {
   padding: 10px;
-  background: rgba(0,0,0,0.2);
-  grid-column: span 4;
+  background: rgba(193, 193, 193, 0.2);
+  grid-column: span 2;
   text-align: center;
 }
 .contributors img {
