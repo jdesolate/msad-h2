@@ -40,6 +40,7 @@ export const projects = [
       github_usernames["BASCON"],
       github_usernames["AÑANA"],
     ],
+    github_repo: "https://github.com/mantequilla45/BSDOC",
   },
   {
     name: "Productivity Tracker",
@@ -50,6 +51,7 @@ export const projects = [
       github_usernames["RADEN"],
       github_usernames["TABOADA"],
     ],
+    github_repo: "https://github.com/jpenaso10/ProductivityTracker",
   },
   {
     name: "ShopSavvy",
@@ -59,6 +61,7 @@ export const projects = [
       github_usernames["LEUNG"],
       github_usernames["TOROY"],
     ],
+    github_repo: "https://github.com/kisetzuu/ShopSavvy",
   },
   {
     name: "TaskTrack",
@@ -68,6 +71,7 @@ export const projects = [
       github_usernames["PENIONAL"],
       github_usernames["QUIÑONES"],
     ],
+    github_repo: "https://github.com/NiJyuKyu/TaskTrack",
   },
   {
     name: "TeknoySpace",
@@ -77,6 +81,7 @@ export const projects = [
       github_usernames["SUNGAHID"],
       github_usernames["CAMUS"],
     ],
+    github_repo: "https://github.com/Mier03/TeknoSpace",
   },
   {
     name: "EDULINK",
@@ -86,6 +91,7 @@ export const projects = [
       github_usernames["VEGA"],
       github_usernames["BORNEA"],
     ],
+    github_repo: "https://github.com/Wl-lO/edulink",
   },
   {
     name: "GOURMET GAMBLE",
@@ -95,5 +101,6 @@ export const projects = [
       github_usernames["ARIAS"],
       github_usernames["ARMENION"],
     ],
+    github_repo: "https://github.com/LoydAMT/gourmetgamble0",
   },
 ];
