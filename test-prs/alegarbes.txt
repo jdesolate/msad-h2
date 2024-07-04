@@ -1,0 +1,10 @@
+Github workflow notes
+    1.) Clone Project
+    2.) Create a branch from main
+    3.) Make changes to your project files
+    4.) Commit your changes to your branch
+    5.) Push changes to origin/remote
+    6.) Double check if you missed some changesif true -> repeat step 3-6
+    7.) Make a PR/pull request
+    8.) Double check everything/ask fellow dev for review
+    9.) Merge pull request
