@@ -50,7 +50,7 @@ export const projects = [
       github_usernames["VEGA"],
       github_usernames["BORNEA"],
     ],
-    github_repo: "https://github.com/Wl-lO/edulink",
+    github_repo: "https://github.com/j1nsol/EDULINK",
   },
   {
     name: "GOURMET GAMBLE",
